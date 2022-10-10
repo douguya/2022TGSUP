@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  AppSettings:
+    AppIdRealtime: bd3ecb4f-8f5a-4ad1-a140-aaf2eb3da5f2
+    AppIdFusion: 
+    AppIdChat: 
+    AppIdVoice: 
+    AppVersion: 1.0
+    UseNameServer: 1
+    FixedRegion: jp
+    Server: 
+    Port: 0
+    ProxyServer: 
+    Protocol: 0
+    EnableProtocolFallback: 1
+    AuthMode: 0
+    EnableLobbyStatistics: 0
+    NetworkLogging: 1
+  DevRegion: jp
+  PunLogging: 0
+  EnableSupportLogger: 1
+  RunInBackground: 1
+  StartInOfflineMode: 0
+  RpcList:
+  - ClickRpc
+  - DestroyRpc
+  - DestroySpaceship
+  - Fire
+  - RespawnSpaceship
+  - Itemobtain
+  - ItemobtainToRPC
+  - GamestartToRPC
+  - PlayerNameShare
+  - RoomID
+  - SugorokuTUrntoRPC
+  - AbleToPlayerControl
+  - GameFinish
+  - GoalPut_RPC
+  - GoalClear
+  - GoalPutRPC
+  - GoalAgain
+  - hashRoom_StartUp
+  - IconChange
+  - iconChange
+  - Daycomment
+  - Daycommentoff
+  - GettingGoal
+  - RadyClose
+  - PlayerAppearance
+  - Output_anotherTurn
+  - Output_Dice_ready
+  - Output_GoalSetting
+  - Output_PlayerTurn
+  - Output_GameFinish
+  - Output_GoalAdd
+  - Output_GoalClear
+  - Output_AnimationDown
+  - Output_AnimationDownMonth
+  - Output_AnimationLeft
+  - Output_AnimationLeftMonth
+  - Output_AnimationRight
+  - Output_AnimationRightMonth
+  - Output_AnimationStop
+  - Output_AnimationUp
+  - Output_AnimationUpMonth
+  - Output_AnimationWarpUp
+  - Output_decisionClear
+  - Output_decisionSetting
+  - Output_GoalCount
+  - Output_hideCoverClear
+  - Output_HopUp
+  - Output_PlayerMove
+  - Output_SelectClear
+  - Output_SelectSetting
+  - Output_VideoFinish
+  - Output_VideoStart
+  - ItemList_UGI_Transform
+  - ItemList_UGI_Transform_RPC
+  - ItemAdd
+  - ItemLost
+  - Output_ItemLifeSpan
+  - Output_VideoSetting
+  - RPCPlayerAlignment
+  - Day_Animation_RPC_1
+  - Day_Animation_RPC_2
+  - Log_RPC
+  - Log_RPC__Oter
+  - Output_Playerloot
+  - Output_Postion
+  - Output_DiceAdd
+  - Output_DiceMultiply
+  - Output_TurnChange
+  - RPC_Effect_IconChange
+  - ApartmentEffect
+  - connection1
+  - ReadyButton_hide
+  - decision_display_RPC
+  - select_display_RPC
+  - HopUp_hid_RPC
+  - HopUp_Setting_RPC
+  - Video_transparent_RPC_1
+  - Video_transparent_RPC_2
+  - Direct_Log_RPC
+  - Direct_Log_RPC__InputField
+  - EffectBGM_RPC
+  - Output_BGM
+  - OutPut_DiceShuffle
+  - OutPut_DiceShuffle_Stop
+  - Output_GoalAnimation_RPC
+  - Output_LookDice
+  - OutPut_PresentSetting
+  - GoalPutFalse_RPC
+  - Output_Goalcheckfalse
+  - OutPut_Goalchecktrue
+  DisableAutoOpenWizard: 1
+  ShowSettings: 1
+  DevRegionSetOnce: 0
